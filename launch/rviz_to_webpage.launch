@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+   
+    <include file="$(find rviz_camera_stream_examples_tc)/launch/demo_camera_info.launch"/>
+    <include file="$(find rviz_camera_stream_examples_tc)/launch/web_server.launch"/>
+
+       <!-- Generate compressed images -->
+    <include file="$(find rviz_camera_stream_examples_tc)/launch/compressed_images.launch" />
+
+</launch>
